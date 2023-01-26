@@ -7,6 +7,7 @@ Estilo del menu dropdown
 header {
     background-color: whitesmoke;
 
+
 }
 
 * {
@@ -86,15 +87,13 @@ body {
 }
 
 
-#em {
-    font-size: small;
-}
+
 
 
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: primary;
     position: sticky;
     height: 100%;
@@ -104,9 +103,41 @@ body {
   
   .sidebar a {
     display: block;
-    color: black;
+    color: whitesmoke;
     padding: 16px;
     text-decoration: none;
   }
 
 
+.header{
+  
+  background-color: #f1f1f1;
+  
+}
+
+#title{
+  font-weight: bolder;
+  font-size: 50px;
+  
+}
+
+#foot{
+  background-color: #f1f1f1;
+  margin-left: 0;
+  padding: 0;
+}
+
+#twitter{
+  padding: 10px;
+  min-width: 52px;
+}
+
+#facebook{
+  padding: 10px;
+  min-width: 52px;
+}
+
+#instagram{
+  padding: 10px;
+  min-width: 52px;
+}
